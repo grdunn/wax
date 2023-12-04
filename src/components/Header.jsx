@@ -6,13 +6,13 @@ function Header() {
     <>
       <header className="header relative bg-brand-background-secondary flex">
         <div className="container p-6 flex items-center justify-between w-full">
-          <div className="max-w-svg">
+          <div className="hidden md:flex max-w-svg">
             <USA />
           </div>
-          <div className="w-full mx-16">
+          <div className="flex-none md:flex-auto w-full md:mx-16">
             <Logo />
           </div>
-          <div className="max-w-svg">
+          <div className="hidden md:flex max-w-svg">
             <CA />
           </div>
         </div>
