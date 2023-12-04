@@ -10,7 +10,9 @@ function Header() {
             <USA />
           </div>
           <div className="flex-none md:flex-auto w-full md:mx-16">
-            <Logo />
+            <a target="_blank" href="https://www.waxbodega.com">
+              <Logo />
+            </a>
           </div>
           <div className="hidden md:flex max-w-svg">
             <CA />
