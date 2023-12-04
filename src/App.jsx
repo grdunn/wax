@@ -7,39 +7,44 @@ function App() {
     <>
       <div className="bg-brand-background">
         <Header />
-        <div className="flex flex-wrap">
-          <a
-            href="https://www.waxbodega.com/categories/arms-length"
-            className="w-full md:w-1/2 img-overlay"
-            target="_blank"
-          >
-            <div className="img-overlay__text">ARM'S LENGTH</div>
-            <img className="w-full" src="/armslength.jpg" />
-          </a>
-          <a
-            href="https://www.waxbodega.com/categories/carly-cosgrove"
-            className="w-full md:w-1/2 img-overlay"
-            target="_blank"
-          >
-            <div className="img-overlay__text">CARLY COSGROVE</div>
-            <img className="w-full" src="/carly.jpg" />
-          </a>
-          <a
-            href="https://www.waxbodega.com/categories/ben-quad"
-            className="w-full md:w-1/2 img-overlay"
-            target="_blank"
-          >
-            <div className="img-overlay__text">BEN QUAD</div>
-            <img className="w-full" src="/quad.jpg" />
-          </a>
-          <a
-            href="https://www.instagram.com/saturdaysatyourplace/?hl=en"
-            className="w-full md:w-1/2 img-overlay"
-            target="_blank"
-          >
-            <div className="img-overlay__text">SATURDAYS AT YOUR PLACE</div>
-            <img className="w-full" src="/saturday.jpg" />
-          </a>
+        <div className="mt-10 md:mt-16 container p-6">
+          <div className="flex items-center justify-center mb-4">
+            <a
+              href="https://www.waxbodega.com/categories/arms-length"
+              className="w-full img-overlay"
+              target="_blank"
+            >
+              <div className="img-overlay__text">ARM'S LENGTH</div>
+              <img className="w-full rounded-lg" src="/armslength.jpg" />
+            </a>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-4">
+            <a
+              href="https://www.waxbodega.com/categories/carly-cosgrove"
+              className=" img-overlay"
+              target="_blank"
+            >
+              <div className="img-overlay__text">CARLY COSGROVE</div>
+              <img className="rounded-lg" src="/carly.jpg" />
+            </a>
+            <a
+              href="https://www.waxbodega.com/categories/ben-quad"
+              className="img-overlay"
+              target="_blank"
+            >
+              <div className="img-overlay__text">BEN QUAD</div>
+              <img className="rounded-lg" src="/quad.jpg" />
+            </a>
+            <a
+              href="https://www.instagram.com/saturdaysatyourplace/?hl=en"
+              className="img-overlay"
+              target="_blank"
+            >
+              <div className="img-overlay__text">SATURDAYS AT YOUR PLACE</div>
+              <img className="rounded-lg" src="/saturday.jpg" />
+            </a>
+          </div>
         </div>
         <Spotify />
         <Seated />
