@@ -5,7 +5,6 @@ function CASVG() {
     <>
       <svg
         width="100%"
-        height=""
         viewBox="0 0 108 73"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +31,6 @@ function WAXSECONDARY() {
     <>
       <svg
         width="296"
-        height="238"
         viewBox="0 0 296 238"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -255,7 +253,6 @@ function USASVG() {
     <>
       <svg
         width="100%"
-        height=""
         viewBox="0 0 109 59"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -286,7 +283,6 @@ function LogoSVG() {
     <>
       <svg
         width="100%"
-        height=""
         viewBox="0 0 814 79"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

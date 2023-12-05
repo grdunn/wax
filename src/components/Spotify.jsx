@@ -4,7 +4,7 @@ import { SECONDARY } from "./Svgs";
 2;
 function Spotify() {
   return (
-    <div className="container flex items-center justify-center flex-row-reverse p-6 mt-6 md:mt-14 flex-wrap">
+    <div className="container flex items-center justify-center flex-row-reverse p-6 mt-6 md:mt-8 flex-wrap">
       <div className="w-full md:w-2/4 flex justify-center px-2 mb-14 md:mb-0">
         <SECONDARY />
       </div>
